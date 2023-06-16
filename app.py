@@ -22,6 +22,7 @@ def main():
     st.sidebar.title("ChatMLS")  # Add title to the sidebar
 
     st.title("Talk with your MLS Data!")
+
     
     openai_api_key = st.sidebar.text_input("Enter your OpenAI API key to start", type="password")  # Add OpenAI API Key input field    
 
@@ -33,7 +34,7 @@ def main():
 
     with st.sidebar:
         st.markdown(
-                "MLS property data have information about homes that are sold or for sale. It tells us where they are, how much they cost, how "
+                "(Multiple Listings Service) MLS property data have information about homes that are sold or Listings for sale. It tells us where they are, how much they cost, how "
                 "many bedrooms and bathrooms they have, and other important things about the property. It is used by real estate and " 
                 "appraisal agents."
             )
